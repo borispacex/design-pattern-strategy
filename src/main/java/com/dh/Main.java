@@ -1,22 +1,17 @@
 package com.dh;
 
 /*
+import com.dh.problem.PriceCalculator;
+*/
+
 import com.dh.solution.PriceCalculator;
 import com.dh.solution.impl.FixedDiscount;
 import com.dh.solution.impl.NoDiscount;
 import com.dh.solution.impl.PercentageDiscount;
-*/
-import com.dh.problem.PriceCalculator;
 
 public class Main {
     public static void main(String[] args) {
 
-        PriceCalculator calculator = new PriceCalculator();
-        calculator.calculatePrice(100, "FIXED");
-        calculator.calculatePrice(100, "PERCENTAGE");
-        calculator.calculatePrice(100, "NO");
-
-        /*
         PriceCalculator calculator = new PriceCalculator();
 
         // Usar descuento fijo
@@ -30,6 +25,12 @@ public class Main {
         // Sin descuento
         calculator.setDiscountStrategy(new NoDiscount());
         System.out.println("Precio sin descuento: $" + calculator.calculatePrice(100));
-         */
+
+        /*
+        PriceCalculator calculator = new PriceCalculator();
+        calculator.calculatePrice(100, "FIXED");
+        calculator.calculatePrice(100, "PERCENTAGE");
+        calculator.calculatePrice(100, "NO");
+        */
     }
 }
