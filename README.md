@@ -30,6 +30,12 @@ public class PriceCalculator {
 
 Usamos **Strategy** para separar la lógica de descuento en clases independientes.
 
+### Estructura
+![Design Pattern Strategy Structure](/src/main/resources/img/design-pattern-strategy-structure.png)
+
+#### Solucion
+![Design Pattern Strategy](/src/main/resources/img/design-pattern-strategy.png)
+
 ### 1. **Interfaz Strategy**
 
 ```java
